@@ -4,12 +4,13 @@
 Creating an application that generates a high-quality README. This allows developers to devote more time on projects, and less time manually editing a README file.
 
 ### What is the application
-What the application will include are the following:
+It is a command-line application that will dynamically generate a professional README.md file from a user's input using the Inquirer package.
 
-- how to use the app
-- how to install
-- how to report issues
-- how to make contributions (by other developers)
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
 
 #### Links to deployed application
 
