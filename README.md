@@ -1,30 +1,44 @@
-# Pro-README-Generator
+# s
+
+![License](https://img.shields.io/badge/License-Boost-blue.svg)
 
 ## Description
-Creating an application that generates a high-quality README. This allows developers to devote more time on projects, and less time manually editing a README file.
 
-### What is the application
-It is a command-line application that will dynamically generate a professional README.md file from a user's input using the Inquirer package.
+s
 
-The application will be invoked by using the following command:
+## Table of Contents
 
-```bash
-node index.js
-```
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-#### Links to deployed application
+## Installation 
 
-Local URL: https://drgoshd.github.io/ 
-GitHub URL: https://github.com/DrGoshD/
+s
 
-##### Screenshot to deployed application
+## Usage
 
-```md
-    ![alt text](assets/images/screenshot.png)
-```
+s
 
-###### License
+## License
 
+This project is licensed under the Boost license.
 
-#### Badge
-![Readme-Generator](https://img.shields.io/github/license/DrGoshD/README-Generator?style=plastic)
+## Contributing
+
+s
+
+## Tests
+
+s
+
+## Questions
+
+If you have any questions or feedback, don't hesitate to contact me via email or GitHub.
+
+- Email: s
+- GitHub: https://github.com/undefined
+

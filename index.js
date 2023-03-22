@@ -15,33 +15,33 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a short description of your project.Do not forget to save when finished.',
+        message: 'Please provide a short description of your project.',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Please provide guidance on how to install the application. Always save when done.',
+        message: 'Please provide guidance on how to install the application.',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Please provide details about the use and steps on how to use this application. Always save.',
+        message: 'Please provide details about the use and steps on how to use this application.',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What license would you like to give your application?',
-        choices: ['MIT', 'Apache 2.0 License', 'Boost'],
+        choices: ['MIT', 'Apache', 'Boost'],
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'Please provide guidelines for developers who want to share their contributions. Save.',
+        message: 'Please provide guidelines for developers who want to share their contributions.',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Please provide testing guidance. Save!',
+        message: 'Please provide testing guidance.',
     },
     {
         type: 'input',

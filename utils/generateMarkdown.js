@@ -1,59 +1,50 @@
 function generateMarkdown(data) {
-    let licenseBadge = '';
 
-    if (data.license === 'MIT') {
-        licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-    } else if (data.license === 'Apache 2.0 License') {
-        licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-    } else if (data.license === 'Boost') {
-        licenseBadge = '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
-    }
+return `# ${data.title}
 
-    return `# ${data.title}
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
-    ${licenseBadge}
+## Description
 
-    ##Description
+${data.description}
 
-    ${data.description}
+## Table of Contents
 
-    ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+## Installation 
 
-    ## Installation 
+${data.installation}
 
-    ${data.installation}
+## Usage
 
-    ## Usage
+${data.usage}
 
-    ${data.usage}
+## License
 
-    ## License
+This project is licensed under the ${data.license} license.
 
-    This project is licensed under the ${data.license} license.
+## Contributing
 
-    ## Contributing
+${data.contributing}
 
-    ${data.contributing}
+## Tests
 
-    ## Tests
+${data.tests}
 
-    ${data.tests}
+## Questions
 
-    ## Questions
+If you have any questions or feedback, don't hesitate to contact me via email or GitHub.
 
-    If you have any questions or feedback, don't hesitate to contact me via email or GitHub.
+- Email: ${data.email}
+- GitHub: https://github.com/${data.github}
 
-    - Email: ${data.email}
-    - GitHub: https://github.com/${data.github}
-
-  `;
+`;
 }
   
 module.exports = generateMarkdown;
