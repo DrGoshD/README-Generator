@@ -4,7 +4,8 @@
   "description": "Creating an application that generates a high-quality README. This allows developers to devote more time on projects, and less time manually editing a README file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,6 @@
   "homepage": "https://github.com/DrGoshD/README-Generator#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^9.1.5"
+    "inquirer": "^8.2.5"
   }
 }

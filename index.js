@@ -13,17 +13,17 @@ const questions = [
         message: 'What is the title of your project?',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'description',
         message: 'Please provide a short description of your project.Do not forget to save when finished.',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'installation',
         message: 'Please provide guidance on how to install the application. Always save when done.',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'usage',
         message: 'Please provide details about the use and steps on how to use this application. Always save.',
     },
@@ -34,12 +34,12 @@ const questions = [
         choices: ['MIT', 'Apache 2.0 License', 'Boost'],
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'contributing',
         message: 'Please provide guidelines for developers who want to share their contributions. Save.',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'tests',
         message: 'Please provide testing guidance. Save!',
     },
@@ -64,7 +64,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
-            const markdownData = generateMarkdown(answers);
+            const markdownData = generateMarkdown({...answers});
             writeToFile('README.md', markdownData);
             console.log('Success, you generated your README.md file');
         }) 
