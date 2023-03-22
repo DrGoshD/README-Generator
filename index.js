@@ -54,8 +54,19 @@ const questions = [
     },
 ];
 
+const writeToFile = util.promisify(fs.writeFile);
 
-
-
+const init() {
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            const markdownData = generateMarkdown(answers);
+            writeToFile('README.md', markdownData);
+            console.log('Success, you generated your README.md file');
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+}
 
 init();
