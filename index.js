@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
+const generateMarkdown = require("")
 
 console.log("This is a professional README generator");
 
@@ -54,19 +55,22 @@ const questions = [
     },
 ];
 
-const writeToFile = util.promisify(fs.writeFile);
+function writeToFile(fileName, data) {
+    const filePath = path.join(process.cwd(), fileName);
+    fs.writeFileSync(filePath, data);
+}
 
-const init() {
+function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
             const markdownData = generateMarkdown(answers);
             writeToFile('README.md', markdownData);
             console.log('Success, you generated your README.md file');
-        })
+        }) 
         .catch((err) => {
             console.error(err);
         });
-}
+};
 
 init();
