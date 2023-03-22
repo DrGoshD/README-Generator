@@ -18,3 +18,13 @@ Local URL: https://drgoshd.github.io/
 GitHub URL: https://github.com/DrGoshD/
 
 ##### Screenshot to deployed application
+
+```md
+    ![alt text](assets/images/screenshot.png)
+```
+
+###### License
+
+
+#### Badge
+![Readme-Generator](https://img.shields.io/github/license/DrGoshD/README-Generator?style=plastic)
