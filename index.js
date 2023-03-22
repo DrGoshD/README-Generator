@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
-const generateMarkdown = require("")
+const generateMarkdown = require("./utils/generateMarkdown");
 
 console.log("This is a professional README generator");
 
@@ -31,7 +31,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'What license would you like to give your application?',
-        choices: ['MIT License', 'Apache License', 'GPL License'],
+        choices: ['MIT', 'Apache 2.0 License', 'Boost'],
     },
     {
         type: 'editor',
