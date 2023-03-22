@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Creating an application that generates a high-quality README. This allows developers to devote more time on projects, and less time manually editing a README file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrGoshD/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrGoshD/README-Generator/issues"
+  },
+  "homepage": "https://github.com/DrGoshD/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
