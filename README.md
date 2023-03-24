@@ -1,10 +1,10 @@
-# s
+# Professional readme
 
-![License](https://img.shields.io/badge/License-Boost-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
 
-s
+An application that generates a readme
 
 ## Table of Contents
 
@@ -17,28 +17,28 @@ s
 
 ## Installation 
 
-s
+Follow the instructions provided
 
 ## Usage
 
-s
+Follow the guidance
 
 ## License
 
-This project is licensed under the Boost license.
+This project is licensed under the MIT license.
 
 ## Contributing
 
-s
+Anyone who wants to share any improvements, please get in touch!
 
 ## Tests
 
-s
+Testing can be done using node.js
 
 ## Questions
 
 If you have any questions or feedback, don't hesitate to contact me via email or GitHub.
 
-- Email: s
+- Email: user.github@github.com
 - GitHub: https://github.com/undefined
 
